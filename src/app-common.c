@@ -257,8 +257,7 @@ int app_event_get_region_format(app_event_info_h event_info, char **region)
 
 int app_resource_manager_get(app_resource_e type, const char *id, char **path)
 {
-  *path=strdup("/tmp/a");
-  return APP_ERROR_NONE;
+  return -1;
 }
 
 int app_event_get_device_orientation(app_event_info_h event_info, app_device_orientation_e *orientation)
